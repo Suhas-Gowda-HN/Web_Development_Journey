@@ -1,0 +1,60 @@
+<!--
+        i am going to make a flag of Laos using css
+
+         1. css positioning 
+         2. css selectors
+            and some more are used here.
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Flag Using CSS</title>
+  <style>
+   .flag{
+    background-color: #ce1126;
+    height: 600px;
+    width: 900px;
+   } 
+    .flag div{
+    position: relative;
+    background-color: #002868;
+    height: 300px;
+    top: 60px;
+    } 
+    .flag div div{
+      position: absolute;
+      background-color: #fff;
+      height: 200px;
+      width: 200px;
+      top:50px;
+      left: 350px;
+      border-radius: 50%;
+    }
+    p{
+      font-size: 70px;
+      margin: 0px;
+      text-align: center;
+      color: white;
+    }
+    div > div > div > p{
+      color: black;
+    }
+    
+  </style>
+</head>
+
+<body>
+  <div class="flag">
+    <p>The Flag</p>
+    <div>
+      <div>
+        <p>of Laos</p>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
